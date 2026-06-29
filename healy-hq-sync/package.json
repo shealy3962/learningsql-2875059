@@ -1,0 +1,22 @@
+{
+  "name": "healy-hq-sync",
+  "version": "1.0.0",
+  "description": "Sync Google Keep notes to Notion Healy HQ Idea Inbox",
+  "main": "sync.js",
+  "scripts": {
+    "start": "node sync.js",
+    "sync": "node sync.js",
+    "dev": "node sync.js --verbose"
+  },
+  "keywords": ["google-keep", "notion", "automation", "healy-hq"],
+  "author": "Sarahí Healy",
+  "license": "MIT",
+  "dependencies": {
+    "gkeepapi": "^0.0.45",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
+}

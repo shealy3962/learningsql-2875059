@@ -1,0 +1,19 @@
+# Environment variables (contains secrets!)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Sync state
+.sync-state.json
+
+# Logs
+sync.log
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
